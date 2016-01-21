@@ -1,0 +1,61 @@
+* {
+  margin: 0 0 0 0;
+
+  border: none !important;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 20px;
+  background: url('text-ure.png') #888;
+  background-size: 20%;
+}
+
+h1, h2, h3, h4, h5, p, span, .navigation li {
+  background-color: white !important;
+  color: white !important;
+}
+
+.navigation {
+  background-color: white !important;
+  color: white !important;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.navigation .right-nav {
+  text-align: right;
+  float: right;
+}
+
+.main {
+  display: flex;
+}
+
+.main .section-1 {
+  flex: 2;
+  margin-right: 10px;
+}
+
+.main .section-2 {
+  flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.main .section-2 .img-placeholder {
+  width: 300px;
+  height: 200px;
+}
